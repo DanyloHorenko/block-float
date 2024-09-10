@@ -1,0 +1,89 @@
+@import url(reset2.css);
+.first, .zero {
+    margin: 0 auto;
+    width: 1200px;
+    text-align: center;
+    overflow: hidden;
+}
+.zero {
+    font-size: 0;
+}
+.first>div {
+    width: 400px;
+    padding: 10px;
+    background: darkslategray;
+    outline: 2px solid black;
+    display: inline-block;
+    font-size: 20px;
+}
+.second {
+    font-size: 0;
+    margin: 0 auto;
+    width: 1200px;
+    height: 400px;
+    text-align: left;
+    overflow: hidden;
+}
+.second>div {
+    background: aquamarine;
+    outline: 2px solid black;
+    display: inline-block;
+    font-size: 20px;
+}
+.box-1 {
+    width: 800px;
+}
+.box-2 {
+    width: 400px;
+}
+.box-1>div {
+    height: 200px;
+    padding: 10px;
+}
+.box-2>div {
+    height: 133.3px;
+    padding: 10px;
+}
+
+.float-parent {
+    font-size: 0;
+    margin: 0 auto;
+    width: 1200px;
+    text-align: left;
+    overflow: hidden;
+    height: 400px;
+}
+.float-parent>div {
+    background: rgb(191, 186, 137);
+    outline: 2px solid black;
+    font-size: 20px;
+    display: inline-block;
+}
+.container-1 {
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+}
+.container-2 {
+    width: 900px;
+    height: 400px;
+}
+.float-child {
+    outline: 2px solid black;
+    width: 900px;
+    height: 200px;
+}
+.float-child-1 {
+    outline: 2px solid black;
+    width: 450px;
+    height: 200px;
+    float: left;
+    padding: 10px;
+}
+.float-child-2 {
+    outline: 2px solid black;
+    width: 450px;
+    height: 100px;
+    float: right;
+    padding: 10px;
+}
